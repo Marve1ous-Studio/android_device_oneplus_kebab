@@ -18,6 +18,9 @@ $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 # Maintaier
 MIKU_MASTER := Marve1ous
 
+# Build MIKU_GAPPS
+MIKU_GAPPS := true
+
 PRODUCT_NAME := miku_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
