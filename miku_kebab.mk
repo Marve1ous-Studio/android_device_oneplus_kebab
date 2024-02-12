@@ -15,6 +15,9 @@ $(call inherit-product, device/oneplus/kebab/device.mk)
 # Inherit some common Miku UI stuff.
 $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
+# Maintaier
+MIKU_MASTER := Marve1ous
+
 PRODUCT_NAME := miku_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
